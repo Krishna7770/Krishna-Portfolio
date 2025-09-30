@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Krishna Kumar Sah — Portfolio | Skills Showcase</title>
+  <meta name="description" content="Portfolio of Krishna Kumar Sah: Business IT Student | Aspiring Data Analyst | Passion for Digital Transformation" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' fill='%230a84ff'/><text x='50' y='58' font-size='56' text-anchor='middle' fill='white' font-family='Arial'>K</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="script.js"></script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Krishna Kumar Sah",
+    "jobTitle": "Business IT Student",
+    "description": "Business IT Student | Aspiring Data Analyst | Passion for Digital Transformation",
+    "sameAs": ["https://www.linkedin.com/in/krishna-kumar-sah-9b797a2a8", "https://github.com/Krishna7770"]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="container header-inner" role="banner">
+      <div class="brand">
+        <img src="assets/profile.jpg" alt="Profile illustration" class="avatar" />
+        <div>
+          <h1 class="name">Krishna Kumar Sah</h1>
+          <p class="tagline">Business IT Student | Aspiring Data Analyst | Passion for Digital Transformation</p>
+        </div>
+      </div>
+      <nav aria-label="Primary" class="nav">
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+        <button id="themeToggle" class="btn-outline" aria-label="Toggle dark mode">🌙</button>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero container">
+      <div class="hero-text">
+        <h2>Skills Showcase</h2>
+        <p class="lead">A concise snapshot of my core strengths with concrete examples—built for internship applications to show I’m <strong>motivated</strong>, <strong>capable</strong>, and <strong>ready to contribute</strong>.</p>
+        <div class="cta-row">
+          <a class="btn-primary" href="#projects">View Projects</a>
+          <a class="btn-secondary" href="#contact">Get in Touch</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="container section">
+      <h3>Core Skills</h3>
+      <ul class="skills-list" role="list">
+        <li class="skill-card" data-skill="problem-solving">
+          <h4>Problem‑Solving & Analytical Thinking</h4>
+          <p>Break down complex tasks, validate input/assumptions, debug systematically, and iterate based on feedback.</p>
+          <p class="micro"><strong>Example:</strong> Designed a Windows Forms app with tabs (Projects, Tests, Users), added input validation, and improved usability while resolving errors and optimizing workflows.</p>
+        </li><li class="skill-card" data-skill="communication">
+          <h4>Communication & Teamwork</h4>
+          <p>Collaborate smoothly, write clearly, and present ideas with confidence in academic and professional settings.</p>
+          <p class="micro"><strong>Example:</strong> Co‑authored a group report on China’s business environment (1839–1976), practiced structured presentations and mock interviews, and balanced part‑time work at N‑Clean with studies.</p>
+        </li><li class="skill-card" data-skill="coding">
+          <h4>Technical Skills & Continuous Learning</h4>
+          <p>Comfortable with C#, SQL, HTML, CSS, JavaScript (learning), Python, Excel, Power BI (learning). Tools: Odoo ERP, GitHub, XAMPP, Visual Studio, VS Code, Jupyter Notebook, PowerShell.</p>
+          <p class="micro"><strong>Example:</strong> Built a restaurant website using WordPress and Odoo; implemented a .NET web application with a test plan and report; contributed in an Agile team project.</p>
+        </li>
+      </ul>
+    </section>
+
+    <section id="projects" class="container section">
+      <div class="section-head">
+        <h3>Projects (Evidence)</h3>
+        <div class="filters">
+          <label for="filter">Filter:</label>
+          <select id="filter" aria-label="Filter projects by skill">
+            <option value="all">All</option>
+            <option value="problem-solving">Problem‑Solving</option>
+            <option value="coding">Coding</option>
+            <option value="communication">Communication</option>
+          </select>
+        </div>
+      </div>
+
+      <p id="resultsCount" class="micro" aria-live="polite"></p>
+
+      <div class="grid">
+        <article class="card" data-tags="coding problem-solving">
+          <img src="assets/project1.png" alt="Preview placeholder for Agile Development Project — Windows Forms App" loading="lazy" />
+          <div class="card-body">
+            <h4>Agile Development Project — Windows Forms App <span class="pill">C# / Problem‑Solving</span></h4>
+            <p>Tab‑based application to manage projects, tests, and users with validation and improved usability.</p>
+            <ul class="facts"><li><strong>Stack:</strong> C#, .NET (Windows Forms)</li><li><strong>Role:</strong> Developer (team project)</li><li><strong>What I did:</strong> Designed tabs, added input validation, debugged errors, optimized basic workflows</li></ul>
+            <div class="links"></div>
+          </div>
+        </article><article class="card" data-tags="communication">
+          <img src="assets/project2.png" alt="Preview placeholder for Group Report — China’s Business Environment (1839–1976)" loading="lazy" />
+          <div class="card-body">
+            <h4>Group Report — China’s Business Environment (1839–1976) <span class="pill">Communication / Research</span></h4>
+            <p>Historical analysis with links to modern Sino‑foreign business relations; focused on clear structure and sources.</p>
+            <ul class="facts"><li><strong>Type:</strong> Academic research & writing</li><li><strong>Collaboration:</strong> Co‑authored, divided sections, peer‑reviewed drafts</li><li><strong>Outcome:</strong> Improved academic writing and presentation skills</li></ul>
+            <div class="links"></div>
+          </div>
+        </article><article class="card" data-tags="coding">
+          <img src="assets/project3.png" alt="Preview placeholder for Restaurant Website — WordPress & Odoo" loading="lazy" />
+          <div class="card-body">
+            <h4>Restaurant Website — WordPress & Odoo <span class="pill">Web Dev / CMS & ERP</span></h4>
+            <p>Built functional website versions using WordPress and Odoo, focusing on clarity and business‑oriented content.</p>
+            <ul class="facts"><li><strong>Stack:</strong> WordPress, Odoo ERP, HTML/CSS</li><li><strong>Role:</strong> Solo builder</li><li><strong>What I learned:</strong> Content structure, CMS basics, ERP integration mindset</li></ul>
+            <div class="links"></div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="about" class="container section">
+      <h3>About Me</h3>
+      <p>I am currently studying Business Information Technology at LAB University of Applied Sciences, Finland, where I’m building a solid foundation in data analysis, programming, and digital solutions.</p><p>With strong communication, problem-solving, and teamwork skills, I’m motivated to apply my knowledge and contribute to impactful projects during my internship journey.</p><p>I am passionate about data analysis, business technology, and digital transformation. My goal is to contribute to projects where I can apply technical skills, problem‑solving, and communication to deliver real value.</p>
+    </section>
+
+    <section id="contact" class="container section">
+      <h3>Contact</h3>
+      <p>If you’d like to chat or review my work, I’d love to hear from you.</p>
+      <div class="contact-grid">
+        <a class="contact-card" href="mailto:krishna.sah@student.lab.fi" aria-label="Send email">
+          <span>📧</span>
+          <div>
+            <strong>Email</strong>
+            <div>krishna.sah@student.lab.fi</div>
+          </div>
+        </a>
+        
+        <a class="contact-card" href="https://www.linkedin.com/in/krishna-kumar-sah-9b797a2a8" target="_blank" aria-label="Open LinkedIn">
+          <span>💼</span>
+          <div>
+            <strong>LinkedIn</strong>
+            <div class="url">https://www.linkedin.com/in/krishna-kumar-sah-9b797a2a8</div>
+          </div>
+        </a>
+        <a class="contact-card" href="https://github.com/Krishna7770" target="_blank" aria-label="Open GitHub">
+          <span>💻</span>
+          <div>
+            <strong>GitHub</strong>
+            <div class = "url">https://github.com/Krishna7770</div>
+          </div>
+        </a>
+        <button class="contact-card" onclick="window.print()" aria-label="Download as PDF">
+          <span>🖨️</span>
+          <div>
+            <strong><b>Save as PDF</b></strong>
+            <div>Clean print style for 1‑page export</div>
+          </div>
+        </button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <small>© <span id="year"></span> Krishna Kumar Sah. Built with semantic HTML, responsive CSS, and accessibility best practices.</small>
+    </div>
+  </footer>
+</body>
+</html>
