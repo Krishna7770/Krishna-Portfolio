@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="360" viewBox="0 0 600 360">
+  <rect width="600" height="360" fill="#0d1117"/>
+  <rect x="24" y="24" width="552" height="60" rx="8" fill="#111827" stroke="#233046"/>
+  <rect x="24" y="100" width="260" height="220" rx="10" fill="#111827" stroke="#233046"/>
+  <rect x="316" y="100" width="260" height="220" rx="10" fill="#111827" stroke="#233046"/>
+  <g fill="#0a84ff">
+    <circle cx="48" cy="54" r="6"/>
+    <circle cx="68" cy="54" r="6"/>
+    <circle cx="88" cy="54" r="6"/>
+  </g>
+  <text x="120" y="60" fill="#8bd0ff" font-size="20" font-family="Arial">Project Preview</text>
+</svg>
